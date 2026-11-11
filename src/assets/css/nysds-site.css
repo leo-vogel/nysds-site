@@ -1188,11 +1188,6 @@ li > .section-nav__list {
   .token-list__name {
     margin-bottom: calc(var(--nys-space-200) * -1);
   }
-
-  /* Swatch on the right so titles, names and descriptions share one left edge. */
-  .token-list__example {
-    order: 1;
-  }
 }
 
 .token-list__raw {
@@ -1211,7 +1206,7 @@ li > .section-nav__list {
   margin-bottom: var(--nys-space-100);
   padding-inline-start: var(--nys-space-150);
   background-color: var(--nys-color-neutral-50);
-  border-radius: var(--nys-radius-md);
+  border-radius: var(--nys-radius-xl, 12px);
 }
 
 .token-list__info pre {
