@@ -1188,6 +1188,11 @@ li > .section-nav__list {
   .token-list__name {
     margin-bottom: calc(var(--nys-space-200) * -1);
   }
+
+  /* Swatch on the right so titles, names and descriptions share one left edge. */
+  .token-list__example {
+    order: 1;
+  }
 }
 
 .token-list__raw {
